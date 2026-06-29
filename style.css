@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #222;
+    color: white;
+    padding: 15px 0;
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin-left: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.start{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #0077ff;
+    color: white;
+}
+.start h1{
+    font-size:3rem;
+}
+
+.start p{
+    margin:15px 0;
+}
+
+.btn{
+    text-decoration:none;
+    background:white;
+    color:#0077ff;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+section{
+    width:90%;
+    margin:50px auto;
+}
+
+section h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.skill-box{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+.skill-box div{
+    background:#0077ff;
+    color:white;
+    padding:10px 20px;
+    border-radius:5px;
+}
+
+.project-card{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
